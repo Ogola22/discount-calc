@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Discount calculator</h1>
+        <form action="#">
+            <div class="input-item">
+                <label for="billamount">Enter amount:</label>
+                <input type="text" id="amount">
+            </div><br/>
+            <div class="input-item">
+                <label for="discount-percentage">Select discount %:</label>
+                <select name="percentage" id="discount-percentage">
+                    <option value="0">0</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                </select>
+            </div><br/>
+            <div class="input-item">
+                <label for="discount-amount" disable="true">Discount amount:</label>
+                <input type="text" id="discount-amount" disabled>
+            </div><br/><br/>
+            <div class="input-item">
+                <label for="pay" aria-disable="true">Final pay:</label>
+                <input type="text" id="pay" disabled>
+            </div>
+            <button type="submit" class="calculate">Calculate</button>
+            <input type="reset" value="Resest" class="resest">
+        </form>
+
+        <div class="copyright">
+            <div class="copyright">
+              &copy; Copyright 2022<strong><span> Brian Ogola</span></strong>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>

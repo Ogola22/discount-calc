@@ -1,0 +1,72 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+input{
+    border: none;
+    border-bottom: 3px solid #0000ff;
+    font-size: 16px;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+    background: none;
+}
+select{
+    margin: 1em 0;
+    width: 40%;
+    padding: 0.5em 2em;
+    border: 0.2em solid blue;
+}
+button{
+    margin-top: 3em;
+}
+.input-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: min(500px, 90%);
+    margin: 0 auto;
+    background: white;
+    padding: 1.5em 2em;
+    border:0.1em solid #808080;
+    height: fit-content;
+    align-items: center;
+    margin-top: 40px;
+}
+.calculate{
+    padding: 0.8em;
+    background: #c5d3ed;
+    color: #000000;
+    border: none;
+    font-weight: bold;
+    width: 100%;
+}
+.resest{
+    padding: 0.8em;
+    background: #c5d3ed;
+    color: #000000;
+    border: none;
+    font-weight: 700px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+h1{
+    color: orange;
+    text-align: centre;
+}
+.card h1{
+    text-align: center
+}
+label{
+    color: #000000;
+    font-size: 24px;
+}
+.copyright .copyright{
+    text-align: center;
+    margin-top: 30px;
+}
+    
